@@ -43,8 +43,11 @@ modules:
                   ref: 0.45.4
           - name: jboss-eap-modules
             git:
-                  url: https://github.com/jboss-container-images/jboss-eap-modules.git
-                  ref: xp4
+                  #url: https://github.com/jboss-container-images/jboss-eap-modules.git
+                  #ref: xp4
+                  url: https://github.com/xstefank/jboss-eap-modules.git
+                  #ref: XP4_JDK17_xp4
+                  ref: EAP_XP4_749_CR1_JDK17
           - name: jboss-eap-7-image
             git:
                   url: https://github.com/jboss-container-images/jboss-eap-7-image.git
