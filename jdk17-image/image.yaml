@@ -43,16 +43,16 @@ modules:
                   ref: 0.45.6
           - name: jboss-eap-modules
             git:
-                  url: https://github.com/jboss-container-images/jboss-eap-modules.git
-                  ref: EAP_7419_CR2
+                  url: https://github.com/rdnovell/jboss-eap-modules.git
+                  ref: master
           - name: jboss-eap-7-image
             git:
                   url: https://github.com/jboss-container-images/jboss-eap-7-image.git
                   ref: EAP_7419_CR2
           - name: wildfly-cekit-modules
             git:
-                  url: https://github.com/wildfly/wildfly-cekit-modules.git
-                  ref: 0.23.9
+                  url: https://github.com/rdnovell/wildfly-cekit-modules.git
+                  ref: 0.23.x
           - name: jdk-modules
             path: ../modules
       install:
