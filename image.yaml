@@ -38,15 +38,15 @@ modules:
           - name: jboss-eap-modules
             git:
                   url: https://github.com/jboss-container-images/jboss-eap-modules.git
-                  ref: EAP_7419_CR2
+                  ref: master
           - name: jboss-eap-7-image
             git:
                   url: https://github.com/jboss-container-images/jboss-eap-7-image.git
                   ref: EAP_7419_CR2
           - name: wildfly-cekit-modules
             git:
-                  url: https://github.com/wildfly/wildfly-cekit-modules.git
-                  ref: 0.23.9
+                  url: https://github.com/rdnovell/wildfly-cekit-modules.git
+                  ref: 0.23.x
       install:
           - name: jboss.container.util.pkg-update      
           - name: jboss.container.eap.jdk-cert
