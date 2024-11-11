@@ -125,11 +125,6 @@ modules:
 #packages:
 #      content_sets_file: content_sets.yml
 
-artifacts:
-  - name: maven-repo
-    target: maven-repo.zip
-    md5: 76c28d2456bbb07250a05ddc70204b45
-
 run:
       user: 185
       cmd:
