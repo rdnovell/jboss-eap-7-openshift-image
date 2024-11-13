@@ -48,7 +48,7 @@ modules:
                   url: https://github.com/rdnovell/wildfly-cekit-modules.git
                   ref: 0.23.x
           - name: jdk-modules
-            path: ../modules                  
+            path: ./modules                  
       install:
           - name: jboss.container.util.pkg-update      
           - name: jboss.container.eap.jdk-cert
