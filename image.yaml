@@ -47,6 +47,8 @@ modules:
             git:
                   url: https://github.com/rdnovell/wildfly-cekit-modules.git
                   ref: 0.23.x
+          - name: jdk-modules
+            path: ../modules                  
       install:
           - name: jboss.container.util.pkg-update      
           - name: jboss.container.eap.jdk-cert
@@ -116,6 +118,7 @@ modules:
 
           # At this point, all scripts must have been added to JBOSS_HOME and to custom galleon packages location
           - name: jboss.container.wildfly.galleon.build-feature-pack
+            version: "1.1"          
           - name: jboss.container.wildfly.galleon.provision-server
           - name: jboss.container.eap.final-setup
           - name: jboss.container.eap.jdk-cert-remove   

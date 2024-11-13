@@ -126,6 +126,7 @@ modules:
 
           # At this point, all scripts must have been added to JBOSS_HOME and to custom galleon packages location
           - name: jboss.container.wildfly.galleon.build-feature-pack
+            version: "1.1"          
           - name: jboss.container.wildfly.galleon.provision-server
           - name: jboss.container.eap.final-setup
 
